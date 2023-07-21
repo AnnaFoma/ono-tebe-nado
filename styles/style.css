@@ -5,6 +5,7 @@ header {
     padding-left: 51px;
     padding-top: 92px;
     padding-right: 49px;
+    margin-bottom: 92PX;
 }
 
 .links-list {
@@ -17,9 +18,124 @@ header {
     margin-left: 25px;
   }
 
+.circle {
+    list-style: circle;
+}
+
 .logo-black {
     width: 148px;
     height: 105px;
 }
 
-/*img логотипа в header абсолютным позиционированием */ 
+/*img логотипа в header абсолютным позиционированием 
+логотип - ссылка
+для адреса сделать перенос по словам*/ 
+
+.cover {
+    position: relative;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+    padding: 165px 50px 62px 50px;
+}
+
+.opacity {
+    position: absolute;
+    opacity: 0.6;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.cover-title {
+    width: 100%;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+   
+.accent-span {
+    display: block;
+    position: relative;
+    z-index: 2;
+
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.last-span {
+    margin-right: -30px;
+}
+
+.cover__description {
+    position: relative;
+    z-index: 2;
+    margin-top: 135px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+}
+
+.bet-button {
+    background: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    padding: 12px 32px;
+    margin-left: 78px;
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    background-size: 100% auto;
+}
+
+.card {
+    display: flex;
+    flex-grow: 1;
+    width: 430px;
+    height: 450px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-first {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card-second {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card-third {
+    background-image: url("../images/card-lot-03.jpg");
+}
