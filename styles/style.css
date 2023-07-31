@@ -3,6 +3,7 @@ body {
     max-height: 2844px;
     margin: 0 auto;
 }
+
 .overlay {
     position: absolute;
     opacity: 0.6;
