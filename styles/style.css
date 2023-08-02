@@ -33,8 +33,8 @@
 .header_links-list {
   display: flex;
   flex-direction: row;
-  padding-top: 43px;
-  gap: 30px;
+  padding-top: 44px;
+  gap: 32px;
 }
 
 .header_links-list-item,
